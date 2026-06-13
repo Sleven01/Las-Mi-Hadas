@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Las Mi-Hadas - Iniciar Sesión</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Playfair Display',serif;
+    background:#f4f7fb;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:420px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.subtitulo{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+    font-family:'Playfair Display',serif;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-family:'Playfair Display',serif;
+    margin-bottom:10px;
+}
+
+.registrar{
+    background:#1877f2;
+    color:white;
+}
+
+.iniciar{
+    background:#42b72a;
+    color:white;
+}
+
+.info{
+    margin-top:15px;
+    text-align:center;
+    color:#666;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+<h1>Las Mi-Hadas</h1>
+
+<p class="subtitulo">
+Registro e inicio de sesión
+</p>
+
+<input
+type="text"
+placeholder="Nombre de usuario"
+id="usuario">
+
+<input
+type="password"
+placeholder="Contraseña"
+id="password">
+
+<button class="registrar">
+Registrarse
+</button>
+
+<button class="iniciar">
+Iniciar sesión
+</button>
+
+<div class="info">
+Próximamente conectado con Firebase
+</div>
+
+</div>
+
+</body>
+</html>
